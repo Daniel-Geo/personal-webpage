@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Daniel's webpage</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-white text-black font-sans items-center text-center mr-26 dark:bg-black dark:text-white" id="home">
+        <header class="w-full p-4 mx-auto bg-blue-500 text-white rounded-lg flex items-center justify-between">
+            <h1 class="text-4xl font-bold">Daniel's website</h1>
+            <nav class="flex items-center justify-between">
+                <ul class="flex flex-col sm:flex-row items-center text-xl">
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#home">Home</a></li>
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#about">About</a></li>
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#projects">Projects</a></li>
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="fixed top-0 right-0 h-full rounded-lg bg-blue-500 text-white">
+            <nav class="flex flex-col items-center justify-between">
+                <ul class="flex flex-col items-center text-xl gap-4 mt-4">
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#home">Home</a></li>
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#about">About</a></li>
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#projects">Projects</a></li>
+                    <li class="px-4 hover:bg-white/10 hover:text-teal-300 rounded-lg transition-color duration-300"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="container text-2xl mx-auto mt-8">
+            <h2 class="text-3xl font-bold mb-8" id="about">About</h2>
+            <p>My name is <span class="font-bold">Daniel George 😀</span></p>
+            <p>I am a <span class="font-bold">17</span> years old high schooler 🏫</p>
+            <p>I love programming, 3D modeling, and web design 🤩</p>
+        </section>
+        <section class="container text-2xl mx-auto mt-24">
+            <h2 class="text-3xl font-bold mb-8" id="projects">Projects</h2>
+            <div class="grid grid-cols-1 grid-rows-6 gap-4 justify-self-center md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
+                <figure class="">
+                    <a href="https://daniel-geo.github.io/personal-website/" target="_blank" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="images/personal-website.jpg" alt="My personal website" class="w-96 h-54 border-3 border-blue-500 rounded-lg">
+                        <figcaption>My personal website</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://modrinth.com/mod/marvelousmod" target="_blank" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="images/marvelousmod-showcase.jpg" alt="Minecraft MarvelousMod" class="w-96 h-54 border-3 border-blue-500 rounded-lg">
+                        <figcaption>Minecraft MarvelousMod</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://daniel-geo.github.io/solar-system/" target="_blank" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="images/solar-system.jpg" alt="Solar system simulation" class="w-96 h-54 border-3 border-blue-500 rounded-lg">
+                        <figcaption>Solar system simulation</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://github.com/Daniel-Geo/youtube-video-downloader" target="_blank" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="images/youtube-video-downloader%20(YVD).png" alt="Youtube Video Downloader" class="w-96 h-54 border-3 border-blue-500 rounded-lg">
+                        <figcaption>Youtube Video Downloader</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://daniel-geo.itch.io/pixel-platformer" target="_blank" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="images/pixel-platformer.jpg" alt="Pixel Platformer game" class="w-96 h-54 border-3 border-blue-500 rounded-lg">
+                        <figcaption>Pixel Platformer game</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="https://github.com/Daniel-Geo/unity-hackatime" target="_blank" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="images/unity-hackatime.png" alt="Hackatime plugin for Unity" class="w-96 h-54 border-3 border-blue-500 rounded-lg">
+                        <figcaption>Unity Hackatime plugin</figcaption>
+                    </a>
+                </figure>
+            </div>
+        </section>
+        <section class="container text-2xl mx-auto mt-24">
+            <h2 class="text-3xl font-bold mb-8" id="contact">About</h2>
+            <div class="flex flex-row flex-wrap items-center justify-center gap-4">
+                <figure>
+                    <a href="mailto:danielgeorgewadea@gmail.com" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="icons/mail.png" alt="Email icon" class="w-96 h-54">
+                        <figcaption>Email</figcaption>
+                    </a>
+                </figure>
+
+                <figure title="Sorry, I don't want to tell my number😓">
+                    <a href="tel:+201234567890" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="icons/phone.png" alt="Phone icon" class="w-96 h-54">
+                        <figcaption>Phone</figcaption>
+                    </a>
+                </figure>
+
+                <figure title="Sorry, I don't want to tell my number😓">
+                    <a href="sms:+201234567890" class="hover:text-teal-300 transition-color duration-300">
+                        <img src="icons/sms.png" alt="SMS icon" class="w-96 h-54">
+                        <figcaption>SMS</figcaption>
+                    </a>
+                </figure>
+            </div>
+        </section>
+        <footer class="bg-gradient-to-r from-blue-500/0 via-blue-500 to-blue-500/0 text-white p-4 mt-4">
+            <div class="text-center">
+                <p>Made with <span title="love" class="hover:cursor-default">❤️</span> by <a href="https://github.com/Daniel-Geo" target="_blank" class="hover:text-teal-300 transition-color duration-300">@Daniel-Geo</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
